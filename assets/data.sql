@@ -3,7 +3,7 @@ CREATE DATABASE biblioteca;
 use biblioteca;
 
 CREATE TABLE `carti` (
-                         `id` int(11) NOT NULL,
+                         `id` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
                          `titlu` varchar(255) NOT NULL,
                          `autor` varchar(255) NOT NULL,
                          `editura` varchar(255) NOT NULL,
